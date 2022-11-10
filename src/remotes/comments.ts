@@ -21,6 +21,7 @@ export async function addComment(
   feedId: number,
   { message }: Pick<Comment, 'message'>
 ) {
+  alert('addComment');
   return api.from<Comment>('comments').upsert({
     feedId,
     message,

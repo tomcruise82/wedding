@@ -40,6 +40,7 @@ export function Feed({ feeds }: Props) {
                 placeholder="blur"
                 className={css({ transition: 'all 0.2s' })()}
               >
+                {/* align center */}
                 <Image.Source src={content.image.src} alt="feed_사진" />
               </Image>
               {액션를_포함하는_피드인가(content) ? (

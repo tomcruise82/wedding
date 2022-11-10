@@ -3,30 +3,42 @@
   "description": "감사한 마음 잊지 않고 오랫동안 간직할게요.",
   "groom": [
     {
-      "holderName": "예금주명",
-      "bankName": "은행이름",
+      "holderName": "최종화",
+      "bankName": "토스뱅크",
+      "accountNumber": "1000-1028-7167",
+      "logo": "/assets/svg/tossbank.svg"
+    },
+    {
+      "holderName": "최윤기",
+      "bankName": "국민은행",
       "accountNumber": "계좌번호",
       "logo": "/assets/svg/kb.svg"
     },
     {
-      "holderName": "예금주명",
-      "bankName": "은행이름",
+      "holderName": "김원",
+      "bankName": "국민은행",
       "accountNumber": "계좌번호",
       "logo": "/assets/svg/tossbank.svg"
     }
   ],
   "bridge": [
     {
-      "holderName": "예금주명",
+      "holderName": "노희정",
       "bankName": "은행이름",
       "accountNumber": "계좌번호",
       "logo": "/assets/svg/ibk.svg"
     },
     {
-      "holderName": "예금주명",
+      "holderName": "노용대",
       "bankName": "은행이름",
       "accountNumber": "계좌번호",
       "logo": "/assets/svg/kakaobank.svg"
+    },
+    {
+      "holderName": "김순자",
+      "bankName": "은행이름",
+      "accountNumber": "계좌번호",
+      "logo": "/assets/svg/ibk.svg"
     }
   ]
 }
