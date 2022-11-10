@@ -8,8 +8,7 @@ export function Footer() {
         weight="light"
         size="sm"
         css={{ color: '$gray400', mt: '$4', textAlign: 'center' }}
-      >
-      </Text>
+      ></Text>
     </StyledFooter>
   );
 }
