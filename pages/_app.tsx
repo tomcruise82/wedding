@@ -43,13 +43,13 @@ function MyApp({ Component, pageProps }: AppProps) {
           site_name: og.sitename,
           images: [
             {
-              url: '/assets/img/temp.jpg',
+              url: '/assets/img/wedding/1.jpg',
               width: 1200,
               height: 630,
               alt: og.title,
             },
             {
-              url: '/assets/img/temp.jpg',
+              url: '/assets/img/wedding/1.jpg',
               width: 800,
               height: 418,
               alt: og.title,
@@ -62,11 +62,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         additionalLinkTags={[
           {
             rel: 'icon',
-            href: '/assets/favicon/icon_36x36.png',
+            href: '/assets/favicon/icons8-wedding-day-48.png',
           },
           {
             rel: 'apple-touch-icon',
-            href: '/assets/favicon/icon_144x144.png',
+            href: '/assets/favicon/icons8-wedding-day-96.png',
             sizes: '144x144',
           },
         ]}
