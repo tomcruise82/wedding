@@ -2,31 +2,91 @@
   "data": [
     {
       "id": 1,
-      "name": "프로포즈",
-      "thumbnailImageSrc": "/assets/img/2022/0.jpg",
+      "name": "종화가 만들어준 꽃💐",
+      "thumbnailImageSrc": "/assets/img/highlight/1.jpg",
       "contents": [{
         "id": 1,
-        "imageSrc": "/assets/img/2022/0.jpg",
+        "imageSrc": "/assets/img/highlight/1.jpg",
         "theme": "dark"
       }]
     },
     {
       "id": 2,
-      "name": "웨딩드레스 선택",
-      "thumbnailImageSrc": "/assets/img/2022/9.jpg",
+      "name": "프로포즈💕",
+      "thumbnailImageSrc": "/assets/img/highlight/2.jpg",
       "contents": [{
         "id": 1,
-        "imageSrc": "/assets/img/2022/9.jpg",
+        "imageSrc": "/assets/img/highlight/2.jpg",
         "theme": "dark"
       }]
     },
     {
       "id": 3,
-      "name": "웨딩드레스 선택",
-      "thumbnailImageSrc": "/assets/img/2022/10.jpg",
+      "name": "프로포즈 받고 신난 희정이😆",
+      "thumbnailImageSrc": "/assets/img/highlight/3.jpg",
       "contents": [{
         "id": 1,
-        "imageSrc": "/assets/img/2022/10.jpg",
+        "imageSrc": "/assets/img/highlight/3.jpg",
+        "theme": "dark"
+      }]
+    },
+    {
+      "id": 4,
+      "name": "랜선 집들이🏠",
+      "thumbnailImageSrc": "/assets/img/highlight/4.jpg",
+      "contents": [{
+        "id": 1,
+        "imageSrc": "/assets/img/highlight/4.jpg",
+        "theme": "dark"
+      }]
+    },
+    {
+      "id": 5,
+      "name": "싸이흠뻑쇼 즐기기🎤",
+      "thumbnailImageSrc": "/assets/img/highlight/5.jpg",
+      "contents": [{
+        "id": 1,
+        "imageSrc": "/assets/img/highlight/5.jpg",
+        "theme": "dark"
+      }]
+    },
+    {
+      "id": 6,
+      "name": "우리💘",
+      "thumbnailImageSrc": "/assets/img/highlight/6.jpg",
+      "contents": [{
+        "id": 1,
+        "imageSrc": "/assets/img/highlight/6.jpg",
+        "theme": "dark"
+      }]
+    },
+    {
+      "id": 7,
+      "name": "우리2💘",
+      "thumbnailImageSrc": "/assets/img/highlight/7.jpg",
+      "contents": [{
+        "id": 1,
+        "imageSrc": "/assets/img/highlight/7.jpg",
+        "theme": "dark"
+      }]
+    },
+    {
+      "id": 8,
+      "name": "우리3💘",
+      "thumbnailImageSrc": "/assets/img/highlight/8.jpg",
+      "contents": [{
+        "id": 1,
+        "imageSrc": "/assets/img/highlight/8.jpg",
+        "theme": "dark"
+      }]
+    },
+    {
+      "id": 9,
+      "name": "우리4💘",
+      "thumbnailImageSrc": "/assets/img/highlight/9.jpg",
+      "contents": [{
+        "id": 1,
+        "imageSrc": "/assets/img/highlight/9.jpg",
         "theme": "dark"
       }]
     }

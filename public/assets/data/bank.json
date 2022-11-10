@@ -11,34 +11,34 @@
     {
       "holderName": "최윤기",
       "bankName": "국민은행",
-      "accountNumber": "계좌번호",
+      "accountNumber": "812-21-0769-855",
       "logo": "/assets/svg/kb.svg"
     },
     {
       "holderName": "김원",
       "bankName": "국민은행",
-      "accountNumber": "계좌번호",
-      "logo": "/assets/svg/tossbank.svg"
+      "accountNumber": "900902-01-010012",
+      "logo": "/assets/svg/kb.svg"
     }
   ],
   "bridge": [
     {
       "holderName": "노희정",
-      "bankName": "은행이름",
-      "accountNumber": "계좌번호",
-      "logo": "/assets/svg/ibk.svg"
+      "bankName": "토스뱅크",
+      "accountNumber": "1000-1028-6800 ",
+      "logo": "/assets/svg/tossbank.svg"
     },
     {
       "holderName": "노용대",
-      "bankName": "은행이름",
-      "accountNumber": "계좌번호",
-      "logo": "/assets/svg/kakaobank.svg"
+      "bankName": "우리은행",
+      "accountNumber": "1002-860-741208",
+      "logo": "/assets/svg/woori.svg"
     },
     {
       "holderName": "김순자",
-      "bankName": "은행이름",
-      "accountNumber": "계좌번호",
-      "logo": "/assets/svg/ibk.svg"
+      "bankName": "하나은행",
+      "accountNumber": "238-046279-00107",
+      "logo": "/assets/svg/hana.svg"
     }
   ]
 }
