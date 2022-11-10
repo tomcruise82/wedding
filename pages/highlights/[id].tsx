@@ -186,7 +186,10 @@ export default function HighlightPage({ highlight, highlightDataSet }: Props) {
             transition={{ duration: 0.3 }}
           >
             <Image.Root>
-              <Image {...대표_컨텐츠_이미지} css={{ height: '100%', justifyContent: 'center' }}>
+              <Image
+                {...대표_컨텐츠_이미지}
+                css={{ height: '100%', justifyContent: 'center' }}
+              >
                 <Image.Source src={대표_컨텐츠_이미지.src} alt="재여비" />
               </Image>
             </Image.Root>
