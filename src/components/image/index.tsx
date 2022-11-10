@@ -1,7 +1,7 @@
 import { CSSProps, mergeCss } from '@utils/styles';
 import { WithRequiredKeys } from '@utils/types';
 import NextImage, { ImageProps } from 'next/image';
-import React, { Children, ReactElement, ReactNode } from 'react';
+import React, { Children, ReactElement, ReactNode, CSSProperties } from 'react';
 import { styled } from 'stitches.config';
 
 interface Props

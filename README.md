@@ -14,7 +14,6 @@
 
 👉 [Default Template](https://immutable.wedding/)
 
-[soso](https://github.com/SoYoung210) and [Jbee](https://github.com/jaeYeopHan)'s [wedding log](https://immutable-wedding-git-js-weddinglog-soso02.vercel.app/)
 
 ## 🚀 Usage
 

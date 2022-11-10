@@ -81,8 +81,16 @@ const Carousel = forwardRef(function Carousel(
   );
 });
 
+
+// Image center
 const Wrapper = styled('div', {
   position: 'relative',
+  backgroundColor: 'white',
+  // image center
+  '& .keen-slider': {
+    display: 'flex',
+    alignItems: 'center',
+  },
 });
 
 export default Carousel;
