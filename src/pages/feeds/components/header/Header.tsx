@@ -1,10 +1,23 @@
 import PaperAirplane from '@components/icon/PaperAirplane';
 import Image from '@components/image';
 import { Flex } from '@components/util/layout/Flex';
+import { FeedAction } from 'src/models/Feed';
 import link from 'public/assets/data/link.json';
 import React from 'react';
 
+
+// action bottom sheet
+// import { AccountTransferActionCTA } from '@pages/feeds/components/feed/action-cta/bottom-sheet-action-cta/account-transfer/AccountTransferActionCTA';
+import { useAccountTransferBottomSheet } from '@pages/feeds/components/feed/action-cta/bottom-sheet-action-cta/account-transfer/useAccountTransferBottomSheet';
+
 export function Header() {
+
+  const action : FeedAction = {
+    type: 'bottom-sheet_account',
+    text: '계좌이체',
+    color: '#FFD600',
+  }
+
   return (
     <Flex.CenterVertical
       css={{
@@ -27,13 +40,7 @@ export function Header() {
         </Image>
       </Flex>
       <Flex css={{ ml: 'auto', spaceX: '$24' }}>
-        <a
-          target="_blank"
-          rel="noreferrer noopener"
-          // href={link['선물목록 노션 링크']}
-        >
-          <PaperAirplane />
-        </a>
+        <PaperAirplane />
       </Flex>
     </Flex.CenterVertical>
   );
