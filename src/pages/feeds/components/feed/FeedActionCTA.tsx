@@ -1,6 +1,6 @@
 import { useNotifications } from '@components/notification/NotificationContext';
 import { useIsMobileWeb } from '@hooks/useIsMobileWeb';
-import { ActionCTA } from '@pages/feeds/components/feed/action-cta/ActionCTA';
+import { ActionCTA, NomalActionCTA } from '@pages/feeds/components/feed/action-cta/ActionCTA';
 import { AccountTransferActionCTA } from '@pages/feeds/components/feed/action-cta/bottom-sheet-action-cta/account-transfer/AccountTransferActionCTA';
 import { TossTransferActionCTA } from '@pages/feeds/components/feed/action-cta/bottom-sheet-action-cta/toss-transfer/TossTransferActionCTA';
 import React from 'react';
@@ -65,5 +65,5 @@ export function FeedActionCTA({ action }: Props) {
     }
   }
 
-  return <ActionCTA backgroundColor={action.color}>{action.text}</ActionCTA>;
+  return <NomalActionCTA backgroundColor={action.color}>{action.text}</NomalActionCTA>;
 }

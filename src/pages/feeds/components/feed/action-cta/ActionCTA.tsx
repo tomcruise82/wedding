@@ -42,3 +42,34 @@ export function ActionCTA<ElementType extends keyof JSX.IntrinsicElements>({
     </Component>
   );
 }
+
+export function NomalActionCTA<ElementType extends keyof JSX.IntrinsicElements>({
+  as,
+  backgroundColor,
+  children,
+  css,
+  ...props
+}: Props<ElementType>) {
+  const Component = styled(as ?? 'div', {}) as any;
+
+  return (
+    <Component
+      css={{
+        backgroundColor,
+        display: 'flex',
+        padding: '10px 18px',
+
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        color: '$white',
+        fontSize: 14,
+        fontWeight: 'medium',
+        mt: '-3px',
+        ...css,
+      }}
+      {...props}
+    >
+      {children}
+    </Component>
+  );
+}
