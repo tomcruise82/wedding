@@ -43,13 +43,9 @@ export function ActionCTA<ElementType extends keyof JSX.IntrinsicElements>({
   );
 }
 
-export function NomalActionCTA<ElementType extends keyof JSX.IntrinsicElements>({
-  as,
-  backgroundColor,
-  children,
-  css,
-  ...props
-}: Props<ElementType>) {
+export function NomalActionCTA<
+  ElementType extends keyof JSX.IntrinsicElements
+>({ as, backgroundColor, children, css, ...props }: Props<ElementType>) {
   const Component = styled(as ?? 'div', {}) as any;
 
   return (

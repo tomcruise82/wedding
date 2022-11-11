@@ -5,18 +5,12 @@ import { FeedAction } from 'src/models/Feed';
 import link from 'public/assets/data/link.json';
 import React from 'react';
 
-
-// action bottom sheet
-// import { AccountTransferActionCTA } from '@pages/feeds/components/feed/action-cta/bottom-sheet-action-cta/account-transfer/AccountTransferActionCTA';
-import { useAccountTransferBottomSheet } from '@pages/feeds/components/feed/action-cta/bottom-sheet-action-cta/account-transfer/useAccountTransferBottomSheet';
-
 export function Header() {
-
-  const action : FeedAction = {
+  const action: FeedAction = {
     type: 'bottom-sheet_account',
     text: '계좌이체',
     color: '#FFD600',
-  }
+  };
 
   return (
     <Flex.CenterVertical
